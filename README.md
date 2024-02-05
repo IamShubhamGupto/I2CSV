@@ -85,8 +85,8 @@ $ pre-commit install
 At this point, pre-commit will automatically be run every time you make a commit.
 
 #### Environment
-[!WARNING]  
-This repository was tested and built on an M1 MacBook Pro. 
+[!WARNING]
+This repository was tested and built on an M1 MacBook Pro.
 
 To update conda environment files:
 
