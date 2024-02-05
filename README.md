@@ -74,7 +74,7 @@ options:
 
 ### Contribution
 #### Pre-commit
-We use [pre-commit](https://pre-commit.com/) to keep the notebooks clean.
+I use [pre-commit](https://pre-commit.com/) to keep the notebooks clean.
 In order to use pre-commit, run the following command in the repo top-level directory:
 The pre commit
 
@@ -85,7 +85,7 @@ $ pre-commit install
 At this point, pre-commit will automatically be run every time you make a commit.
 
 #### Environment
-[!WARNING]
+**Note**
 This repository was tested and built on an M1 MacBook Pro.
 
 To update conda environment files:
@@ -99,3 +99,13 @@ Windows
 ```shell
 conda env export --no-builds | findstr -v "prefix" > environment.yml
 ```
+
+## References
+- [pandas](https://pandas.pydata.org/docs/user_guide/index.html)
+- [matplotlib](https://matplotlib.org)
+- [numpy](https://numpy.org/doc/stable/)
+- [font research](https://jonathansoma.com/lede/data-studio/matplotlib/list-all-fonts-available-in-matplotlib-plus-samples/)
+- [ChatGPT](https://chat.openai.com)
+- [img2table](https://github.com/xavctn/img2table)
+- [table-transformer](https://github.com/microsoft/table-transformer)
+- [pre-commit](https://pre-commit.com/index.html)
