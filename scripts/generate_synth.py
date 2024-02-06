@@ -127,9 +127,11 @@ if __name__ == "__main__":
         df = pd.DataFrame(gt_sheet, columns=keys)
         # Create the totals row as a dictionary first
         totals_row = {
-            key: "Team Totals"
-            if isinstance(gt_sheet[key][0], str)
-            else sum(gt_sheet[key])
+            key: (
+                "Team Totals"
+                if isinstance(gt_sheet[key][0], str)
+                else sum(gt_sheet[key])
+            )
             for key in keys
         }
 
